@@ -1,0 +1,192 @@
+<resources>
+
+    <string name="app_name">SSE FISI</string>
+    <string name="fisi_unmsm">FISI - UNMSM</string>
+    <string name="fisi">Facultad de Ingeniería de Sistemas e Informática</string>
+    <string name="comu">Comunidad de Egresados</string>
+    <string name="user">Nombre de Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="forgot_pass"><u>Olvidé mi contraseña</u></string>
+    <string name="user_hint">nombre.apellido</string>
+
+    <string name="bar_welcome">Inicio</string>
+    <string name="bar_personal">Datos personales</string>
+
+    <string name="card_pers">Datos personales</string>
+    <string name="card_pre">Formación académica</string>
+    <string name="card_post">Estudios de postgrado y/o especialización</string>
+    <string name="card_work">Experiencia laboral</string>
+    <string name="see_more">Ver más</string>
+
+    <string name="pers_edit">Actualizar datos</string>
+    <string name="sch_del">Eliminar formación académica</string>
+    <string name="post_show">Estudios de postgrado</string>
+    <string name="post_del">Eliminar estudio</string>
+    <string name="work_show">Experiencia laboral</string>
+    <string name="work_del">Eliminar experiencia laboral</string>
+
+    <string name="toast_logout">Sesión finalizada.</string>
+    <string name="toast_saved">Cambios guardados.</string>
+    <string name="action_save">Guardar</string>
+    <string name="saving">Guardando. Por favor espere...</string>
+    <string name="did_not_save">Tienes cambios sin guardar.</string>
+    <string name="ask_ignore">¿Quieres ignorarlos?</string>
+    <string name="ignore">Desechar</string>
+    <string name="cancel">Cancelar</string>
+
+    <string name="gdt_from">Egresado de Ingeniería de </string>
+    <string name="star1">Valorar formación académica</string>
+    <string name="star2">Valorar servicios universitarios</string>
+    <string name="about">Acerca del SSE</string>
+    <string name="logout">Cerrar Sesión</string>
+
+    <!-- Spinner Civil state-->
+    <string name="civil_state">Civil State</string>
+    <string-array name="State">
+        <item>Soltero(a)</item>
+        <item>Casado(a)</item>
+        <item>Viudo(a)</item>
+        <item>Divorciado(a)</item>
+    </string-array>
+
+    <!-- Spinner inst_type-->
+    <string name="inst_type">Institute Type</string>
+    <string-array name="Institute">
+        <item>Pública</item>
+        <item>Privada</item>
+    </string-array>
+
+    <!-- Spinner type_progr-->
+    <string name="progr_type">Programme</string>
+    <string-array name="Programme">
+        <item>Maestría</item>
+        <item>Doctorado</item>
+        <item>Certificaciones</item>
+        <item>Diplomado</item>
+        <item>Especializaciones</item>
+        <item>Otros</item>
+    </string-array>
+
+    <!--- Personal info -->
+
+    <string name="name_title">Nombre</string>
+    <string name="dni_title">Doc. de Identidad</string>
+    <string name="birthday_title">Fecha de Nac.</string>
+    <string name="birthplace_title">Lugar de Nac.</string>
+    <string name="civil_state_title">Estado civil</string>
+    <string name="children_title">Número de hijos</string>
+    <string name="address_title">Dirección</string>
+    <string name="address_detail_title">Lugar de Residencia</string>
+    <string name="add_dep_title">Departamento</string>
+    <string name="add_pro_title">Provincia</string>
+    <string name="add_dis_title">Distrito</string>
+    <string name="phone_title">Teléfono fijo</string>
+    <string name="cellphone_title">Teléfono móvil</string>
+    <string name="pers_email_title">Correo electrónico personal</string>
+    <string name="work_email_title">Correo electrónico laboral</string>
+
+    <string name="name_text">RAMIREZ ESPINOZA, JUAN GABRIEL</string>
+    <string name="dni_text">71490287</string>
+    <string name="birthday_text">17/09/96</string>
+    <string name="birthplace_text">LIMA/LIMA/SAN JUAN DE LURIGANCHO</string>
+    <string name="civil_state_text">CASADO</string>
+    <string name="children_text">3</string>
+    <string name="address_text">Jr. las Grosellas 996</string>
+    <string name="address_detail_text">LIMA/LIMA/SAN JUAN DE LURIGANCHO</string>
+    <string name="phone_text">3761998</string>
+    <string name="cellphone_text">934454689</string>
+    <string name="pers_email_text">ernestsaint_seiya@hotmail.com</string>
+    <string name="work_email_text">luciano.dev96@gmail.com</string>
+
+    <!--- Undergraduate info -->
+
+    <string name="inst_title">Institución</string>
+    <string name="school_title">Escuela profesional</string>
+    <string name="cod_title">Código de alumno</string>
+    <string name="start_date_title">Fecha de ingreso</string>
+    <string name="end_date_title">Fecha de egreso</string>
+    <string name="exp_date_title1">Fecha de expedición de grado</string>
+    <string name="exp_date_title2">Fecha de expedición de título</string>
+    <string name="rank_title">Mérito</string>
+    <string name="mode_title">Modalidad</string>
+    <string name="prof_sch_title">Colegio Profesional</string>
+    <string name="sch_num_title">Número de Colegiatura</string>
+
+    <string name="inst_text">Universidad Nacional Mayor de San Marcos</string>
+    <string name="school_text">Ingeniería de Software</string>
+    <string name="cod_text">09200182</string>
+    <string name="start_date_text">2009</string>
+    <string name="end_date_text">20014</string>
+    <string name="exp_date_text1">05/2015</string>
+    <string name="exp_date_text2">07/2015</string>
+    <string name="rank_text">Tercio superior</string>
+    <string name="mode_text">Tesis</string>
+    <string name="prof_sch_text">Colegio de Ingenieros del Perú</string>
+    <string name="sch_num_text">00891234567</string>
+
+    <string name="ualert_1">Campo de institución vacío</string>
+    <string name="ualert_2">Campo de programa vacío</string>
+    <string name="ualert_3">Campo de fecha de ingreso vacío</string>
+    <string name="ualert_4">Campo de fecha de egreso vacío</string>
+    <string name="ualert_5">Aviso</string>
+    <string name="ualert_6a">Campo de fecha de expedición de grado vacío</string>
+    <string name="ualert_6b">Fecha de expedición de grado no válida. Fecha de expedición de grado no puede ser anterior a Fecha de Egreso</string>
+    <string name="ualert_7a">Campo de fecha de expedición de título vacío</string>
+    <string name="ualert_7b">Fecha de expedición de título no válida. Fecha de expedición de título no puede ser anterior a Fecha de Egreso</string>
+    <string name="udate_error1">Fecha de Egreso no válida. Fecha de Egreso no puede ser anterior a Fecha de Ingreso</string>
+    <string name="uimportant">Importante</string>
+    <string name="uquestion1">¿ Confirmar cambios y guardar ?</string>
+    <string name="uaccept">Aceptar</string>
+    <string name="ucancel">Cancelar</string>
+
+    <string name="uquestion2">¿ Está seguro de eliminar registro de estudios ?</string>
+    <string name="uconfirm">Confirmar</string>
+
+
+    <!--- Postgraduate info -->
+
+    <string name="inst_type_title">Tipo de institución</string>
+    <string name="progr_title">Programa académico</string>
+    <string name="progr_type_title">Tipo de programa</string>
+    <string name="cert_date_title">Fecha de certificación</string>
+    <string name="class_hours_title">Horas lectivas</string>
+
+    <string name="inst_type_text">Pública</string>
+    <string name="progr_text">Maestría en Ingeniería de Software</string>
+    <string name="progr_type_text">Maestría</string>
+    <string name="date_title">año/día/mes ej. 2017-02-03 o Presione Fecha</string>
+    <string name="class_hours_text">4</string>
+    <string name="navigation_drawer_open">Abrir panel lateral</string>
+    <string name="navigation_drawer_close">Cerrar panel lateral</string>
+
+    <!--- Work info -->
+
+    <string name="ec_act_title">Actividad económica</string>
+    <string name="area_title">Área</string>
+    <string name="position_title">Cargo</string>
+    <string name="wbegin_date_title">Fecha de inicio</string>
+    <string name="wend_date_title">Fecha de fin</string>
+    <string name="serv_time_title">Tiempo de servicio</string>
+    <string name="pay_title">Contraprestación mensual</string>
+    <string name="dedication_title">Dedicación</string>
+    <string name="contract_type_title">Tipo de contrato</string>
+    <string name="related_title">Relacionado a su formación</string>
+    <string name="functions_title">Funciones principales</string>
+    <string name="jway_title">Medio por el cual consiguió el empleo</string>
+    <string name="satisfaction_level_title">Nivel de satisfacción</string>
+    <string name="end_motivation_title">Motivo de cese</string>
+
+    <!--- About info -->
+
+    <string name="sse_title">Sistema de seguimiento de egresados de la FISI</string>
+    <string name="sse_text">Aplicación móvil perteneciente al
+        sistema de seguimiento de egresados de los programas académicos de
+        la Facultad de Ingeniería de Sistemas e Informática de la UNMSM</string>
+    <string name="sse_copy">© 2017 FISI-UNMSM. All rights reserved</string>
+
+    <string name="pw_dialog_title">¿Olvidaste tu contraseña?</string>
+    <string name="pw_dialog_text">Escríbenos un mensaje a elpapudelospapus@unmsm.edu.pe anexando usuario y DNI.
+        \nTu mensaje será respondido a la brevedad.</string>
+
+</resources>

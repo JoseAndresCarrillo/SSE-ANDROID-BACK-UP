@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.banzaidevelopers.ssefisi">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/sse_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Login"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PersonalShow"
+            android:label="@string/card_pers"
+            android:parentActivityName=".Home">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Home" />
+        </activity>
+        <activity
+            android:name=".PersonalEdit"
+            android:label="@string/pers_edit"
+            android:parentActivityName=".PersonalShow">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PersonalShow" />
+        </activity>
+        <activity
+            android:name=".UndergraduateShow"
+            android:label="@string/card_pre"
+            android:parentActivityName=".Home">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Home" />
+        </activity>
+        <activity
+            android:name=".UndergraduateEdit"
+            android:label="@string/card_pre"
+            android:parentActivityName=".UndergraduateShow">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UndergraduateShow" />
+        </activity>
+        <activity
+            android:name=".PostgraduateShow"
+            android:label="@string/post_show"
+            android:parentActivityName=".Home">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Home" />
+        </activity>
+        <activity
+            android:name=".PostgraduateEdit"
+            android:label="@string/post_show"
+            android:parentActivityName=".PostgraduateShow">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PostgraduateShow" />
+        </activity>
+        <activity
+            android:name=".WorkShow"
+            android:label="@string/work_show"
+            android:parentActivityName=".Home">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Home" />
+        </activity>
+        <activity
+            android:name=".WorkEdit"
+            android:label="@string/work_show"
+            android:parentActivityName=".WorkShow">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".WorkShow" />
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="@string/bar_welcome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".About"
+            android:label="@string/about"
+            android:parentActivityName=".Home">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Home" />
+        </activity>
+
+    </application>
+
+</manifest>
