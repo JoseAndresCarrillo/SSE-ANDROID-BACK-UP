@@ -15,11 +15,6 @@
         <activity
             android:name=".Login"
             android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".PersonalShow"
@@ -38,20 +33,25 @@
                 android:value=".PersonalShow" />
         </activity>
         <activity
-            android:name=".UndergraduateShow"
+            android:name=".UndergraduateShow.UndergraduateShow"
             android:label="@string/card_pre"
             android:parentActivityName=".Home">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Home" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".UndergraduateEdit"
             android:label="@string/card_pre"
-            android:parentActivityName=".UndergraduateShow">
+            android:parentActivityName=".UndergraduateShow.UndergraduateShow">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".UndergraduateShow" />
+                android:value=".UndergraduateShow.UndergraduateShow" />
         </activity>
         <activity
             android:name=".PostgraduateShow"
