@@ -206,13 +206,12 @@ public class Home extends AppCompatActivity
                 mPostInstitutionNameView.setText(response.body().getPostgraduate().get(0).getInstitutionName());
                 mPostProgrammeAcademicView.setText(response.body().getPostgraduate().get(0).getProgrammeAcademic());
                 mPostDateView.setText(mPostStartYear + " - " + mPostEndYear);
-                //Laboral Experience
-                //------- Quitar Comentario cuando haya informacion en experiencia laboral----------
-                /*workStartYear=response.body().getWork().get(0).getmWbeginDate().substring(0,4);
-                workEndYear=response.body().getWork().get(0).getmWendDate().substring(0,4);
+                //Laboral Experiencia
+                mWorkStartYear=response.body().getWork().get(0).getmWbeginDate().substring(0,4);
+                mWorkEndYear=response.body().getWork().get(0).getmWendDate().substring(0,4);
                 mWorkInstitutionNameView.setText(response.body().getWork().get(0).getmInstitutionName());
                 mWorkPosition.setText(response.body().getWork().get(0).getmPosition());
-                mWorkPosition.setText(workStartYear+" - "+workEndYear);*/
+                mWorkDateView.setText(mWorkStartYear+" - "+mWorkEndYear);
             }
 
             @Override

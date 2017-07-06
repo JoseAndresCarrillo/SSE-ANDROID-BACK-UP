@@ -26,7 +26,7 @@ public class HomePojo {
     private ArrayList<Undergraduate_Home> mUndergraduate;
     @SerializedName("estudios_postgrado")
     private ArrayList<Postgraduate_Home> mPostgraduate;
-    //@SerializedName("experiencia_laboral")
+    @SerializedName("experiencia_laboral")
     private ArrayList<Work_Home> mWork;
 
 
